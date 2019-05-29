@@ -1,0 +1,14 @@
+{
+  "job_name": "scala_example",
+  "source_read": "json",
+  "target_write": "csv",
+  "reader": {
+    "path": "C:\\Users\\596308\\Downloads\\Spark-Scala-Maven-Example-master\\Spark-Scala-Maven-Example-master\\src\\test\\resources\\data\\employees.json",
+  },
+  "transformer": {
+    "path": "C:\\Users\\596308\\Downloads\\Spark-Scala-Maven-Example-master\\Spark-Scala-Maven-Example-master\\src\\test\\resources\\data\\titles.json",
+  },
+  "writer": {
+    "path": "path"
+  }
+}
